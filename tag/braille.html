@@ -2,13 +2,14 @@
 <html lang="english">
 <head>
         <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
         <title>Mohamed Koubaa blog - Braille</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Mohamed Koubaa blog </a></h1>
+                <h1><a href="/">Mohamed Koubaa blog</a></h1>
                 <nav><ul>
                     <li><a href="/category/inventions.html">Inventions</a></li>
                 </ul></nav>
@@ -37,12 +38,12 @@ existed in the market for some time.  In some cases, philanthropic organizations
 costs and purchase them on behalf of blind individuals.  Unfortunately, many of the (cheaper) ones
 can only support one or two lines of braille text, while options that provide an entire page are
 often very expensive. The one below costs a whopping $3832 (as of July 2020)</p>
-<p><img alt="single-line-braille-reader" src="/one-line-display.webp"></p>
+<p><img alt="single-line-braille-reader" src="/images/one-line-display.png"></p>
 <p>So why do these cost so much?  Well, lets take a look inside to see how these usually implemented.
 These displays refresh electronically based on some computer-generated input, so there must be a
 PCB board attached to a system of actuators which deflect the braille dots.  Below is a typical
 set-up.</p>
-<p><img alt="piezo-cantilever-braille-cell" src="/piezo-cell.PNG"></p>
+<p><img alt="piezo-cantilever-braille-cell" src="/images/piezo-cell.PNG"></p>
 <p>Here, a Piezoelectric bimorph is loaded as a cantilever beam, attaching on the fixed end to the PCB
 and on the deflecting end to a pin.  When the beam is loaded with current, it deflects.  According
 to classic solid mechanics, one side of the bimorph will be under tension and the other will be
@@ -81,7 +82,7 @@ this means that the deflection of the pin can be as large as needed.  What's mor
 assembly is entirely linear, it can be manufactured cheaply on a plane.</p>
 <h1>Refreshable braille display</h1>
 <p>Going back to the topic at hand, I am sure you already guessed what I am about to propose.</p>
-<p><img alt="piezo-cell" src="/braille-piezo-actuator.PNG"></p>
+<p><img alt="piezo-cell" src="/images/braille-piezo-actuator.PNG"></p>
 <p>These cells can be arranged onto a PCB and easily scales to a two-dimension braille reader.  I
 suspect that the manufacturing cost would be low due to the layered design.  The global blind
 population isn't incredibly high so there aren't economics of scale. Fortunately, the price bar is
@@ -96,9 +97,9 @@ developers, perhaps some of them blind, can contribute to the quality of the end
                 <div class="blogroll">
                         <h2>links</h2>
                         <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
                             <li><a href="#">You can modify those links in your config file</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
@@ -114,10 +115,10 @@ developers, perhaps some of them blind, can contribute to the quality of the end
 
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
         </footer><!-- /#contentinfo -->
 
 </body>
